@@ -13,8 +13,6 @@
 
 ## 페이지별 기능 DEMO
 ---
-![](https://i.ibb.co/DDDVHTg/image.gif)
-### [제품 상세 페이지]
 ![](https://i.ibb.co/gRKRbBp/image.gif)
 ### [제품 리뷰 기능]
 ![](https://i.ibb.co/DVkvdp0/image.gif)
