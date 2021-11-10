@@ -13,13 +13,6 @@
 
 ## 페이지별 기능 DEMO
 ---
-### [회원가입(카카오 소셜 로그인)]
-![](https://i.ibb.co/JrfJM2N/image.gif)
-### [네비게이션 바]
-![](https://i.ibb.co/0jM581m/nav.gif)
-### [아코디언 메뉴]
-![](https://i.ibb.co/C1wqKcg/image.gif)
-### [메인 상품 필터]
 ![](https://i.ibb.co/DDDVHTg/image.gif)
 ### [제품 상세 페이지]
 ![](https://i.ibb.co/gRKRbBp/image.gif)
