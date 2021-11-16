@@ -1,13 +1,13 @@
-## 23기 프로젝트 Front-end/Back-end 소개
+## CaseT-Fany-frontend 프로젝트
 ---
-📢Show Your Color CASETiFY 클론 프로젝트
-짧은 프로젝트 기간동안 개발에 집중해야 하므로 디자인/기획 부분만 클론했습니다.
-개발은 초기 세팅부터 전부 직접 구현했으며, 아래 데모 영상에서 보이는 부분은
-모두 백앤드와 연결하여 실제 사용할 수 있는 서비스 수준으로 개발한 것입니다.
+- Show Your Color CASETiFY(https://www.casetify.com/) 클론 프로젝트
+- 짧은 프로젝트 기간동안 개발에 집중해야 하므로 디자인/기획 부분만 클론했습니다.
+- 개발은 초기 세팅부터 전부 직접 구현했으며, 아래 데모 영상에서 보이는 부분은 모두 백앤드와 연결하여 실제 사용할 수 있는 서비스 수준으로 개발한 것입니다.
 
 ## 프로젝트 계획 및 기간
 ---
 - 개발기간📆 : 2021/8/16 ~ 2021/8/27
+- 개발 인원 : 프론트엔드 4명, 백엔드 2명
 - 1st Sprint : 개발환경 초기세팅, 전체 레이아웃, 컴포넌트화
 - 2nd Sprint : 컴포넌트 별 기능 구현, 프론트-백 통신, 코드 리팩토링, conflict 수정 작업
 
@@ -18,11 +18,10 @@
 ![](https://i.ibb.co/DVkvdp0/image.gif)
 ### [장바구니 기능 구현]
 
-### CASETiFANY Demo 유튜브 링크
+### Demo 유튜브 링크
 https://www.youtube.com/watch?v=pE_BwR9EwGU
 
 ## 적용 기술 및 구현 기능
----
 ### 적용 기술
 - Front-End : HTML5, Scss, JavaScript, React, React Router, styled-component
 - Back-End : Python, Django, MySql, bcrypt, pyJWT, POSTMAN, linux, aws, docker 
@@ -30,47 +29,37 @@ https://www.youtube.com/watch?v=pE_BwR9EwGU
 - Common: Slack, Trello, Github, Git
 
 ### 구현 기능
-
-
 ####   로그인/회원가입 페이지
 - KaKao REST API KEY를 활용한 social Login 구현
 - fetch함수를 활용한 백엔드 통신으로 JWT LocalStorage 저장 및 삭제
-
 #### 메인페이지
 - Slick Slide를 활용한 캐러셀 구현 및 커스텀 UI 구현
 - styled Component로 UI 구현
-
 #### 공통 네비게이션, 푸터 구현 
 - 공통 Nav, Footer UI 구현
 - Local Storage에서의 토큰의 여부를 통해 로그인 여부 확인 후 로그인 여부에 따라 다른 기능(회원가입 페이지로 이동 / 마이페이지 모달) 구현
 - megaDropdown menu bar 구현
 - Local Storage에서 토큰을 삭제로 로그아웃 기능
 - path parameter이용해 페이지 간 이동 기능 구현
-
 #### 상품 리스트 페이지 
 - query parameter를 이용해 클릭한 상품이 목록에 추가되도록 필터링 기능 구현.
 - 조건부 렌더링을 이용해 accordion menu 구현
-
 #### 상세페이지 (담당)
 - Styled Component를 이용한 상세페이지 UI 구현
 - React slick 라이브러를 이용한 캐러셀 기능 구현
 - Canvas 태그를 이용한 사진 커스텀 기능 구현
 - 사이즈/색상 옵션 선택 기능 구현
 - 카트에 담을 시 장바구니 모달 나오도록 구현
-
 #### 장바구니 (담당)
 - 장바구니 페이지 UI 구현
 - 제품 CRUD 기능 구현
 - 제품 장바구니 삭제, 수량 증감에 따라 총 결제 금액 변동 구현
-
 #### 상품리뷰
 - 상품리뷰 UI구현
 - 이미지파일, 텍스트, 별점을 form-data로 구성해서 백엔드와 통신
+<br>
 
-### 팀원
---- 
-- 프론트엔드: 박정우, 박태환, 이정일, 차예은
-- 백엔드: 김훈태, 한승훈
+
 ### Reference
 ---
 - 이 프로젝트는 CASETiFY 사이트를 참조하여 학습목적으로 만들었습니다.
