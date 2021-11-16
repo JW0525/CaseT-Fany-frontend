@@ -14,11 +14,11 @@
 ## 페이지별 기능 DEMO
 ---
 ![](https://i.ibb.co/gRKRbBp/image.gif)
-### [제품 리뷰 기능]
+### [상세 페이지 기능]
 ![](https://i.ibb.co/DVkvdp0/image.gif)
-### [장바구니 기능 구현]
+### [리뷰 기능 구현]
 
-### Demo 유튜브 링크
+### Demo 유튜브 링크 [상세 페이지 커스텀 기능 및 장바구니]
 https://www.youtube.com/watch?v=pE_BwR9EwGU
 
 ## 적용 기술 및 구현 기능
