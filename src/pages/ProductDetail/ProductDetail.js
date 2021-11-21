@@ -65,14 +65,7 @@ function ProductDetail(props) {
     );
   };
 
-  useEffect(() => {
-    console.log(colorId);
-    console.log(sizeId);
-  }, [colorId, sizeId]);
-
   const submitCart = () => {
-    // let productList = [];
-    // productList.push({ });
     axios
       .post(
         `${BASE_URL}/product_id/${props.match.params.id}/custom`,
@@ -95,11 +88,7 @@ function ProductDetail(props) {
   };
 
   // Canvas
-  let ctx = null; // => 유지되는값 , useRef
-
-  useEffect(() => {
-    // ctx -> getContext
-  }, []);
+  let ctx = null;
 
   useEffect(() => {
     const canvasEle = canvas.current;
@@ -165,7 +154,6 @@ function ProductDetail(props) {
 
   useEffect(() => {
     axios
-      // .get('/data/data.json')
       .get(`${API.PRODUCTLIST}/${props.match.params.id}`)
 
       .then(res => {

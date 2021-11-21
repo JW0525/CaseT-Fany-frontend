@@ -30,11 +30,11 @@ const DetailContainer = ({
         <DetailTitle>{productData.name}</DetailTitle>
         <DetailPrice>₩ {productData.price}</DetailPrice>
         <DetailRate>
-          <Star>🌟</Star>
-          <Star>🌟</Star>
-          <Star>🌟</Star>
-          <Star>🌟</Star>
-          <Star>🌟</Star>
+          <Star>⭐️</Star>
+          <Star>⭐️</Star>
+          <Star>⭐️</Star>
+          <Star>⭐️</Star>
+          <Star>⭐️</Star>
         </DetailRate>
       </div>
       <OptionChoice>
