@@ -11,13 +11,6 @@
 - 1st Sprint : 개발환경 초기세팅, 전체 레이아웃, 컴포넌트화
 - 2nd Sprint : 컴포넌트 별 기능 구현, 프론트-백 통신, 코드 리팩토링, conflict 수정 작업
 
-## 페이지별 기능 DEMO
----
-![](https://i.ibb.co/gRKRbBp/image.gif)
-### [상세 페이지 기능]
-![](https://i.ibb.co/DVkvdp0/image.gif)
-### [리뷰 기능 구현]
-
 ### Demo 유튜브 링크 [상세 페이지 커스텀 기능 및 장바구니]
 https://www.youtube.com/watch?v=pE_BwR9EwGU
 
